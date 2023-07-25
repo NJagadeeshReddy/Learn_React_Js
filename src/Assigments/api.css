@@ -1,0 +1,52 @@
+.heading {
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+}
+
+/* api */
+.grid {
+    display: grid;
+    gap: 20px;
+    background-color: aliceblue;
+    grid-template-columns: auto auto auto auto;
+}
+
+.ad {
+    text-align: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.api {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.custom-popover {
+    --bs-popover-max-width: 200px;
+    --bs-popover-border-color: var(--bs-primary);
+    --bs-popover-header-bg: var(--bs-primary);
+    --bs-popover-header-color: var(--bs-white);
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: .5rem;
+}
+
+.btn-ps {
+    padding: 5px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 1rem;
+
+}
+
+.btn-ps:hover {
+    background-color: rgb(48, 231, 170);
+    color: white;
+}
+
+.shl {
+    border: 2px solid red;
+}

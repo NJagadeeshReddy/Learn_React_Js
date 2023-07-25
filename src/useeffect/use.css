@@ -1,0 +1,29 @@
+.grid-api {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.grid-back {
+    background-color: aliceblue;
+    height: 350px;
+    width: 220px;
+    margin-top: 5px;
+}
+
+.index {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.grid-img {
+    width: 200px;
+    height: 250px;
+}
+
+.titles {
+    background-color: azure;
+    color: rgb(237, 148, 14);
+}

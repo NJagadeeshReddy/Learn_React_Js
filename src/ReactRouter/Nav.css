@@ -1,0 +1,15 @@
+.nav {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-evenly;
+    width: 100%;
+    content: icon;
+    padding: 5px;
+    margin: 0;
+    word-break: break-all;
+    box-shadow: 0 2px 2px 0 rgb(209, 206, 201);
+}
+
+.active {
+    color: rgb(242, 200, 76);
+}

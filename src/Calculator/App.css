@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(60px auto);
+    height: 310px;
+}
+
+input[type="text"] {
+    width: 395px;
+    height: 85px;
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px;
+    letter-spacing: 1px;
+    border: 1px solid greenyellow;
+
+}
+
+#clearAll {
+    grid-column: 1/3;
+    color: white;
+    background-color: rgb(201, 116, 116);
+}
+
+button {
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(56, 56, 56, 0.636);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#result {
+    grid-column: 3/5;
+    background-color: rgb(20, 225, 146);
+    color: black;
+
+}
